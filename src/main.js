@@ -12,3 +12,4 @@ import "./styles/schedule.css";
 import "./modules/form/submit";
 import "./modules/page-load";
 import "./modules/form/date-change";
+import "./modules/schedules/cancel";
