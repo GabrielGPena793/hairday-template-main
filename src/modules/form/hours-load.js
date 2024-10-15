@@ -5,7 +5,7 @@ import { hoursClick } from "./hours-click";
 const hours = document.querySelector("#hours");
 
 export function hoursLoad({ date }) {
-  console.log(date);
+  hours.innerHTML = "";
 
   const opening = openingHours.map((hour) => {
     const [scheduleHour] = hour.split(":");
